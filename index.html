@@ -62,8 +62,13 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link text-dark" href="#" target="_blank"
-                  >Contact  |</a
+                  >Contact</a
                 >
+                <li class="nav-item">
+                    <p class="nav-link text-dark"
+                      >|</p
+                    >
+                </li>
             </li>
               <li class="nav-item">
                 <a class="nav-link text-primary phone" href="#" target="_blank"
@@ -73,14 +78,19 @@
           </ul>
         </div>
       </nav>
-      <h1>Leading the field in <br><span class="bluetext">weight loss </span>surgery</h1>
-      <!-- --------text slick slider begins------- -->
-      <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside>
-      <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside>
-      <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside>
-      <!-- ----------end slick slider----------- -->
-      <button>Read more</button>
-      <img src="https://www.dropbox.com/s/8uwhscq123nnnhb/couple.png?raw=1"/>
+      <div class="runwrapper">
+          <div class="h1wrapper">
+            <h1>Leading the field in <span class="bluetext">weight loss </span><span class="boldtext">surgery</span></h1>
+            <!-- --------text slick slider begins------- -->
+            <aside>"before I was alive <br><span class="blackbg">and now I'm living"</span></aside>
+            <!-- <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside>
+            <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside> -->
+            <!-- ----------end slick slider----------- -->
+            <button>Read more</button>
+          </div>
+          <img src="https://www.dropbox.com/s/8uwhscq123nnnhb/couple.png?raw=1"/>
+    </div>
+      
 </header>
 <!-- -------end feature area-------- -->
 <body>
@@ -116,9 +126,51 @@
                 <h3>We are<br><span>amazing!</span></h3>
                 <hr>
                 <div class="contactform">
+                        <div id="form">
+                        <h4 class="h4">Contact us</h3>
+                    
+                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                            
+                            <div class="fcf-form-group">
+                                <label for="Name" class="fcf-label">Name</label>
+                                <div class="fcf-input-group">
+                                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                </div>
+                            </div>
+                    
+                            <div class="fcf-form-group">
+                                <label for="Email" class="fcf-label">Email</label>
+                                <div class="fcf-input-group">
+                                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <label for="Phone" class="fcf-label">Phone</label>
+                                <div class="fcf-input-group">
+                                    <input type="tel" id="phone" name="phone" class="fcf-form-control" required>
+                                </div>
+                            </div>
+                    
+                            <div class="fcf-form-group">
+                                <label for="Message" class="fcf-label">Message</label>
+                                <div class="fcf-input-group">
+                                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                                </div>
+                            </div>
+                    
+                            <div class="fcf-form-group">
+                                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+                            </div>
+                    
+                           
+                    
+                        </form>
+                        </div>
                     
                     
-                    <button>submit</button>
+                    
+        
                 </div>
             </div>
         </div>

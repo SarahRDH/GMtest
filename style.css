@@ -53,8 +53,12 @@ When you are done please save your static files in a zip and send them to us.
  }
 
  header, body, footer {
-     padding-left: 200px;
-     padding-right: 200px;
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+
+ .navbar {
+    padding-left: 0px;
  }
 
  .navbar-brand {
@@ -75,6 +79,7 @@ When you are done please save your static files in a zip and send them to us.
     text-transform: uppercase;
  }
 
+
  /* .navbar-nav {
      padding-right: 523px;
  } */
@@ -90,13 +95,33 @@ h1 {
     font-family: Oswald;
 font-size: 50px;
 font-weight: 300;
+font-style: normal;
+letter-spacing: 3.05px;
+line-height: 65.14px;
+text-align: left;
 text-transform: uppercase;
+width: 100%;
+padding-bottom: 0px;
+}
+
+header img {
+    width: 60%;
+    align-self: flex-end;
 }
 
 
 
 .bluetext {
     color: #28a2be;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 3.05px;
+}
+
+.boldtext {
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3.05px;  
 }
 
 aside {
@@ -104,6 +129,7 @@ aside {
 font-size: 27px;
 font-weight: 300;
 text-transform: uppercase;
+letter-spacing: 5.51px;
 }
 
 .blackbg {
@@ -111,9 +137,49 @@ text-transform: uppercase;
 font-size: 27px;
 font-weight: 300;
 text-transform: uppercase;
+letter-spacing: 5.51px;
 background-color: black;
 color: white;
+padding: 0px 5px;
 }
+
+.h1wrapper button {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.runwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    /* padding-right: 40px; */
+}
+
+button {
+    /* fallback for old browsers */
+    background: #e15f26;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #ed9854, #e15f26);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #ed9854, #e15f26);
+    border: 1px solid transparent;
+    border-radius: 25px;
+    width: 190px;
+    height: 52px;
+    color: white;
+    text-transform: uppercase;
+}
+  
+
 
 
 

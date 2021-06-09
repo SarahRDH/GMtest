@@ -1,0 +1,53 @@
+/* Instructions:
+
+The wrapper width is 1200px with 30px of padding on each side.
+Globally apply box-sizing:border-box;.
+
+- Prioritize finishing the build over responsiveness.
+
+XThe fonts used are the Google fonts Oswald and Lato
+font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
+
+Feature area:
+XIn the feature area make the running couple a png separate from the
+background.
+- In the feature area use Slick Slider to make the text rotate out
+with a fade, adding buttons to manually switch between slides.
+****add jquery****
+
+Procedure section:
+- In the procedure section make the procedure cards entirely out of
+HTML/CSS using a repeating image for the background gradient. 
+***saving time with images for now, come back to it later*****
+
+
+- In the procedure section give the cards the indicated orange hover state.
+*****again come back to it later******
+
+
+- Create hover states for all buttons and add CSS transitions to all
+hover events.
+
+
+If you have time:
+
+X Make the site responsive. Bootstrap preferred.
+
+- In the feature area use Slick Slider to make the text rotate out
+with a fade, adding buttons to manually switch between slides.
+
+
+Result:
+
+When you are done please save your static files in a zip and send them to us.
+ */
+
+ html {
+     box-sizing: border-box;
+ }
+
+ .wrapper-sizing {
+     width: 1200px;
+     padding: 0px 30px;
+ }

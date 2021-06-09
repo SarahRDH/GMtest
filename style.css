@@ -1,13 +1,13 @@
 /* Instructions:
 
-The wrapper width is 1200px with 30px of padding on each side.
-Globally apply box-sizing:border-box;.
+XThe wrapper width is 1200px with 30px of padding on each side.
+XGlobally apply box-sizing:border-box;.
 
 - Prioritize finishing the build over responsiveness.
 
 XThe fonts used are the Google fonts Oswald and Lato
-font-family: 'Oswald', sans-serif;
-font-family: 'Lato', sans-serif;
+Xfont-family: 'Oswald', sans-serif;
+Xfont-family: 'Lato', sans-serif;
 
 Feature area:
 XIn the feature area make the running couple a png separate from the
@@ -51,3 +51,70 @@ When you are done please save your static files in a zip and send them to us.
      width: 1200px;
      padding: 0px 30px;
  }
+
+ header, body, footer {
+     padding-left: 200px;
+     padding-right: 200px;
+ }
+
+ .navbar-brand {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     text-transform: uppercase;
+     font-family: Oswald;
+    font-size: 23px;
+    font-weight: 400;
+    padding-right: 75px;
+ }
+
+ .nav-item {
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+ }
+
+ /* .navbar-nav {
+     padding-right: 523px;
+ } */
+
+ header {
+     background-image: url("https://www.dropbox.com/s/bkz4c7l1lff3x9x/bg_top.jpg?raw=1");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: cover; 
+    }
+
+h1 {
+    font-family: Oswald;
+font-size: 50px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+
+
+.bluetext {
+    color: #28a2be;
+}
+
+aside {
+    font-family: Oswald;
+font-size: 27px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+.blackbg {
+    font-family: Oswald;
+font-size: 27px;
+font-weight: 300;
+text-transform: uppercase;
+background-color: black;
+color: white;
+}
+
+
+
+

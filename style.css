@@ -36,9 +36,6 @@ footer {
   text-transform: uppercase;
 }
 
-/* .navbar-nav {
-     padding-right: 523px;
- } */
 
 header {
   background-image: url("https://www.dropbox.com/s/bkz4c7l1lff3x9x/bg_top.jpg?raw=1");
@@ -114,7 +111,6 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: space-between;
-  /* padding-right: 40px; */
 }
 
 button {
@@ -251,8 +247,6 @@ h2 {
   font-style: normal;
   letter-spacing: normal;
   line-height: 46.39px;
-
-  /* Text style for "800.123.45" */
   font-style: normal;
   letter-spacing: 1.69px;
   color: #88c8e1;
@@ -262,7 +256,6 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* align-items: center; */
   height: 120px;
   width: 350px;
   padding-top: 150px;

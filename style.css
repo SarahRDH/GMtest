@@ -147,7 +147,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 570px;
+  bottom: -250px;
   left: 50px;
   right: 0px;
 }

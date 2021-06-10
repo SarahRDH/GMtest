@@ -170,7 +170,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: -250px;
+  bottom: -350px;
   left: 50px;
   right: 0px;
 }
@@ -191,16 +191,23 @@ button:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 345px;
-  max-height: 578px;
-  padding: 20px 20px 50px;
+  max-width: 305px;
+  max-height: 538px;
+  padding: 20px 50px 50px;
   color: white;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 63px 20px 0px;
 }
 
 .cards-wrapper button {
   background: white;
   color: #00537e;
+  font-family: "Oswald";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16.66px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.44px;
 }
 
 .cards-wrapper button:hover {
@@ -242,7 +249,7 @@ h2 {
 
 .contact {
   /* to bump it down from the position absolute procedure section*/
-  margin-top: 500px;
+  margin-top: 550px;
   background-image: url("https://www.dropbox.com/s/nqw7revl35edx73/bottombg.jpg?raw=1");
   background-repeat: no-repeat;
   background-position: center;
@@ -284,12 +291,21 @@ h2 {
   justify-content: flex-end;
   height: 120px;
   width: 350px;
-  padding-top: 150px;
-  margin-top: 100px;
+  padding-top: 0px;
+  margin-top: 50px;
+  position: relative;
+    z-index: 1;
 }
 
 .contacttext p {
   margin-bottom: 30px;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 2.42px; 
+  color: #eff4f5;
 }
 
 .contactart {
@@ -297,30 +313,37 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
 #form {
   margin-left: 30px;
   margin-top: -50px;
   margin-bottom: 50px;
   height: 70%;
   width: 93%;
-  padding: 10px 10px 20px 50px;
+  padding: 0px 10px 20px 50px;
+  position: relative;
+  z-index: 1;
 }
 
 #airplane {
-  margin-left: 570px;
+  padding-left: 460px;
   margin-top: 90px;
+  position: relative;
+  z-index: 2;
 }
 
 .contactart hr {
   width: 156px;
-  height: 5px;
+  height: 7px;
   background-color: white;
-  padding-left: 0px;
   margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .contactart h3 {
   font-family: "Oswald";
+  font-weight: 300;
   font-size: 54px;
   line-height: 74px;
   text-align: left;
@@ -333,12 +356,12 @@ h2 {
   font-weight: 700;
   font-style: normal;
   letter-spacing: 3.28px;
-  padding-left: 10px;
+  text-align: left;
 }
 
 .contactart p {
   font-family: "Lato";
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;

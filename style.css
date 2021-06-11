@@ -255,34 +255,62 @@ h2 {
   background-position: center;
   background-size: cover;
 }
-
 #form {
-  background-color: white;
-  width: 486px;
-  height: 600px;
-}
+    background-color: white;
+    width: 486px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+    height: 70%;
+    width: 93%;
+    padding: 0px 10px 20px 50px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: -2px 0px 13px -4px #000000; 
+    box-shadow: -2px 0px 13px -4px #000000;
+    color: gray;
+  }
 
 #form h4 {
   font-family: "Oswald";
-  font-size: 54px;
+  font-size: 52px;
   font-weight: 300;
   font-style: normal;
-  letter-spacing: normal;
+  letter-spacing: 0.3px;
   line-height: 74px;
   text-align: left;
   text-transform: uppercase;
+  padding: 20px 10px 0px 0px;
+  color: black;
 }
 
 #form span {
   font-family: "Oswald";
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
   line-height: 46.39px;
   font-style: normal;
-  letter-spacing: 1.69px;
+  letter-spacing: 0.2px;
   color: #88c8e1;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+#form button {
+  font-family: "Oswald";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21.45px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.92px;
+  width: 45%;
+  margin: 20px 0px 10px 0px;
+}
+
+input, textarea {
+  width: 90%;
 }
 
 .contacttext {
@@ -294,7 +322,7 @@ h2 {
   padding-top: 0px;
   margin-top: 50px;
   position: relative;
-    z-index: 1;
+  z-index: 1;
 }
 
 .contacttext p {
@@ -314,31 +342,22 @@ h2 {
   align-items: center;
 }
 
-#form {
-  margin-left: 30px;
-  margin-top: -50px;
-  margin-bottom: 50px;
-  height: 70%;
-  width: 93%;
-  padding: 0px 10px 20px 50px;
-  position: relative;
-  z-index: 1;
-}
-
 #airplane {
   padding-left: 460px;
   margin-top: 90px;
   position: relative;
+  top: 20px;
   z-index: 2;
 }
 
 .contactart hr {
   width: 156px;
-  height: 7px;
+  height: 5px;
   background-color: white;
   margin-left: 0px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  border: 2px solid white;
 }
 
 .contactart h3 {
@@ -394,19 +413,21 @@ footer {
 
 footer hr {
   width: 1138px;
-  height: 3px;
+  height: 1px;
   background-color: white;
   margin-top: 40px;
+  color: rgba(255,255,255, 0.5);
 }
 
 footer p {
-  font-family: "Lato";
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 18.65px;
-  padding: 20px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.65px;
+    text-align: center;
+    letter-spacing: 2.16px;
+    padding: 20px 0px;
+    color: rgba(255,255,255, 0.6);
 }
 
 .copyright {
@@ -416,15 +437,16 @@ footer p {
   font-style: normal;
   letter-spacing: normal;
   line-height: 25.78px;
+  color: rgba(255,255,255, 0.6);
 }
 
 .logotext {
-  font-family: Oswald;
+  font-family: "Oswald";
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
+  line-height: 1.1;
   text-align: left;
   text-transform: uppercase;
   margin: 0px;

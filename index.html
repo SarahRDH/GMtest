@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -84,9 +86,20 @@
           <div class="h1wrapper">
             <h1>Leading the field in <span class="bluetext">weight loss </span><span class="boldtext">surgery</span></h1>
             <!-- --------text slick slider begins (if time)------- -->
-            <aside>"before I was alive <br><span class="blackbg">and now I'm living"</span></aside>
-            <!-- <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside>
-            <aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside> -->
+            <div id="slider">
+                <div class="slides">
+                   <div class="slide"><aside>"before I was alive and <br><span class="blackbg">now I'm living"</span></aside>
+                   </div>
+               </div>
+               <div class="slides">
+                   <div class="slide"><aside>"Turpis, magna velit placerat. <br><span class="blackbg">lorem ipsum"</span></aside>
+                   </div>
+                </div>
+                <div class="slides">
+                   <div class="slide"><aside>"Mid cum tempor nec, eu,  <br><span class="blackbg">pulvinar adipiscing turpis!"</span></aside>
+                   </div>
+               </div>
+            </div>
             <!-- ----------end slick slider----------- -->
             <button>Read more</button>
           </div>
@@ -176,9 +189,12 @@
     </section>
     <!-- </div> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
-
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 <footer>
     <!-- <div class="wrapper-sizing"> -->

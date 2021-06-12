@@ -90,7 +90,8 @@ header img {
 
 #slider {
     max-width: 370px;
-    margin: 0 auto;
+    margin: 0;
+    /* margin-right: 200px; */
   }
   
   #slider .slides {
@@ -101,7 +102,7 @@ header img {
   }
   
   #slider .slide {
-    float: left;
+    /* float: left; */
     list-style-type: none;
     max-width: 519px;
   }
@@ -110,8 +111,12 @@ header img {
     max-width: 100%;}
   
   .slick-dots {
-    top: 0px;
-    left: 150px;
+    top: 30px;
+    left: 200px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 15px !important;
   }
   
 aside {
@@ -119,7 +124,9 @@ aside {
   font-size: 27px;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 5.51px;
+  letter-spacing: 4.51px;
+  line-height: 43.15px;
+
 }
 
 .blackbg {

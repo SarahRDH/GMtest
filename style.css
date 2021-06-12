@@ -12,6 +12,15 @@ footer, main {
   padding-right: 30px;
 }
 
+.transition {
+    transition: transform 250ms, opacity 800ms;
+}
+
+.transition:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
 .navbar {
   padding-left: 90px;
   padding-right: 0px;
@@ -69,7 +78,8 @@ h1 {
 header img {
   width: 60%;
   align-self: flex-end;
-  position: relative;
+  /* removed due to cards absolute value not behaving */
+  /* position: relative; */
   padding-left: 27px;
 }
 
@@ -91,7 +101,6 @@ header img {
 #slider {
     max-width: 370px;
     margin: 0;
-    /* margin-right: 200px; */
   }
   
   #slider .slides {
@@ -102,7 +111,6 @@ header img {
   }
   
   #slider .slide {
-    /* float: left; */
     list-style-type: none;
     max-width: 519px;
   }
@@ -149,6 +157,7 @@ aside {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1.44px;
+  cursor: pointer;
 }
 
 .runwrapper {
@@ -206,10 +215,12 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  margin: 30px 0px;
+  /* removed cards as overlay on feature area because it wasn't behaving properly */
+  /* position: absolute;
   bottom: -350px;
   left: 50px;
-  right: 0px;
+  right: 0px; */
 }
 
 .card1,
@@ -245,6 +256,7 @@ button:hover {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.44px;
+  cursor: pointer;
 }
 
 .cards-wrapper button:hover {
@@ -285,8 +297,8 @@ h2 {
 }
 
 .contact {
-  /* to bump it down from the position absolute procedure section*/
-  margin-top: 550px;
+  /* to bump it down from the position absolute procedure section, but no longer needed since I removed absolute from cards*/
+  /* margin-top: 550px; */
   background-image: url("https://www.dropbox.com/s/nqw7revl35edx73/bottombg.jpg?raw=1");
   background-repeat: no-repeat;
   background-position: center;
@@ -344,6 +356,7 @@ h2 {
   letter-spacing: 1.92px;
   width: 45%;
   margin: 20px 0px 10px 0px;
+  cursor: pointer;
 }
 
 input, textarea {
